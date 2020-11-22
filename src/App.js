@@ -26,7 +26,7 @@ function App() {
       <body>
 
       <Container id="mycontainer">
-        <Jumbotron name={"PAULIN CHARISMA"} age={22}></Jumbotron>
+        <Jumbotron name={"PAULIN CHARISMA Yap"} age={22}></Jumbotron>
         <Profile />
       </Container>
         
