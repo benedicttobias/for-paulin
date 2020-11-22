@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Jumbotron from './Jumbotron';
 import Profile from './profile';
+import { Container } from 'react-bootstrap';
 
 function App() {
 
@@ -23,12 +24,11 @@ function App() {
         </a>
       </header>
       <body>
-      <Jumbotron name={"PAULIN CHARISMA"} age={22}></Jumbotron>
-      <Jumbotron name={"JETRO CHARISMA"} age={9}></Jumbotron>
 
-      <div clasName ="container">
+      <Container id="mycontainer">
+        <Jumbotron name={"PAULIN CHARISMA"} age={22}></Jumbotron>
         <Profile />
-      </div>
+      </Container>
         
       </body>
     </div>

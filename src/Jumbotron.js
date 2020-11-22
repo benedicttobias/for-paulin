@@ -6,7 +6,7 @@ import "./Jumbotron.css";
 const Jumbotron = (props) => {
 
     return (
-        <div className="Jumbotron">
+        <div className="Jumbotron col-md-6">
             <div className="Image">
                 <h1>{props.name}</h1>
                 {/* Profile Picture placeholder
