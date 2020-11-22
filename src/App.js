@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Jumbotron from './Jumbotron';
+import Profile from './profile';
 
 function App() {
 
@@ -24,6 +25,10 @@ function App() {
       <body>
       <Jumbotron name={"PAULIN CHARISMA"} age={22}></Jumbotron>
       <Jumbotron name={"JETRO CHARISMA"} age={9}></Jumbotron>
+
+      <div clasName ="container">
+        <Profile />
+      </div>
         
       </body>
     </div>
